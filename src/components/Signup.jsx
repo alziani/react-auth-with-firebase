@@ -36,7 +36,7 @@ function Signup() {
           <Form onSubmit={() => handleSubmit}>
             <Form.Group>
               <Form.Label htmlFor="email">Email</Form.Label>
-              <FormControl type="email" id="email" ref={emailRef} />
+              <FormControl type="email" id="email" ref={emailRef} required />
             </Form.Group>
             <Form.Group>
               <Form.Label htmlFor="password">Password</Form.Label>
